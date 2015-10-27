@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="ValidadorDeLogin" method="POST">
+            <table>
+                <tr>
+                    <td align="right">
+                        Nome
+                    </td>
+                    <td>
+                        <input type="text" name="nome" value="" size="40"/><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Classificação
+                    </td>
+                    <td>
+                        <input type="text" name="classificacao" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        Gênero
+                    </td>
+                    <td>
+                        <select size="1" name="genero">
+                            <option value="COMEDIA">Comédia</option>
+                            <option value="ACAO">Ação</option>
+                            <option value="FICCAO">Ficção</option>
+                            <option value="DRAMA">Drama</option>
+                            <option value="DOCUMENTARIO">Documentário</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="salvar" name="salvar" size="10"/>
+                        <input type="submit" value="excluir" name="excluir" size="10"/>
+                        <input type="submit" value="cancelar" name="cancelar" size="10"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
